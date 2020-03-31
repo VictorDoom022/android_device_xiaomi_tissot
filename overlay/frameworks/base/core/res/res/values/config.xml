@@ -253,4 +253,6 @@
         <item>20</item>
         <item>30</item>
     </integer-array>
+
+<integer name="config_deviceHardwareKeys">19</integer>
 </resources>

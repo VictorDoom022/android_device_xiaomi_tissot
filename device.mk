@@ -24,17 +24,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 # Inherit from msm8953-common
 $(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
 
-# GAPPS_VARIANT := nano
-# $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
-# GAPPS_PRODUCT_PACKAGES += Chrome
-# GAPPS_PRODUCT_PACKAGES += Google
-# GAPPS_PRODUCT_PACKAGES += Messages
-# GAPPS_FORCE_PACKAGE_OVERRIDES := true
-# GAPPS_FORCE_BROWSER_OVERRIDES := true
-# GAPPS_FORCE_MMS_OVERRIDES := true
-# GAPPS_FORCE_MATCHING_DPI := true
-
-
 # A/B
 AB_OTA_UPDATER := true
 
@@ -119,7 +108,3 @@ PRODUCT_PACKAGES_DEBUG += \
 # Verity
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/system
 $(call inherit-product, build/target/product/verity.mk)
-
-# Camera
-PRODUCT_PACKAGES += \
-    Gcam
