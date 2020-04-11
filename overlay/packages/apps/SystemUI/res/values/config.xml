@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
