@@ -122,3 +122,6 @@ $(call inherit-product, build/target/product/verity.mk)
 
 PRODUCT_PACKAGES += \
     HwKeyHandler
+
+PRODUCT_PACKAGES += \
+    GeometricWeather
